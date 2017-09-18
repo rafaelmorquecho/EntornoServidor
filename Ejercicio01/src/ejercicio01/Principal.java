@@ -23,11 +23,11 @@ public class Principal {
 
         Cilindro cilindro = new Cilindro();
         System.out.println(cilindro);
-        System.out.println("volumen " + cilindro.getArea());
+        System.out.println("volumen " + cilindro.getVolumen());
 
         Cilindro cilindro2 = new Cilindro(4, 2);
         System.out.println(cilindro2);
-        System.out.println("volumen " + cilindro2.getArea());
+        System.out.println("volumen " + cilindro2.getVolumen());
 
         //polimorfismo
         Circulo cilindro3 = new Cilindro(4, 3, "verde");
