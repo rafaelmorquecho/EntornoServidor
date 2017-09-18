@@ -41,7 +41,5 @@ public class Empleado extends Persona {
     public String toString() {
         return "Empleado{" + super.toString() + "colegio=" + colegio + ", sueldo=" + sueldo + '}';
     }
-    
-    
 
 }
