@@ -30,7 +30,6 @@ public class Principal {
         System.out.println("volumen " + cilindro2.getArea());
 
         //polimorfismo
-         //polimorfismo
         Circulo cilindro3 = new Cilindro(4, 3, "verde");
         System.out.println(cilindro3);
 
